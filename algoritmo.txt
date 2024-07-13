@@ -1,0 +1,29 @@
+-------------------------------
+problema:
+'La compañia TT esta realizando un nuevo modelo de muebles basados en
+los planos de un diseñador italiano, pero muchas piezas no han encajado
+correctamente debido a que los planos estan en cms y las maquinas de la 
+compañia estan en pulgadas'
+-------------------------------
+
+-------------------------------
+Algoritmo:
+1. Solicitar al usuario las medidas de la pieza del mueble en cms
+2. Convertir las medidas de cms a pulgadas
+3. Mostrar las medidas convertidas en pulgadas al usuario
+-------------------------------
+
+-------------------------------
+Pseudocodigo:
+
+Inicio
+    #Paso1: Solicitar al usuario las medidas de la pieza del mueble en cms
+    Mostrar mensaje: 'Ingrese las medidas de la peiza en cms'
+
+    #Paso2: Convertir las medidas de cms a pulgadas
+    medida_conv = medida_cms / 2.54
+
+    #Paso3: Mostrar las medidas convertidas en pulgadas al usuario
+    Mostrar mensaje: 'Las medidas en pulgadas de la pieza ingresada son: ', medida_conv
+    
+Fin
